@@ -1,0 +1,59 @@
+.header {
+  object-fit: contain;
+  height: 450px;
+  margin-bottom: 10px;
+  /* color: white; */
+}
+
+.headerContent {
+  padding-top: 180px;
+  margin-left: 10px;
+  height: 175px;
+}
+
+.title {
+  color: white;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  font-size: calc(28px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+  font-weight: 700;
+  margin: 3px;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: transform 300ms;
+}
+
+.btn:hover {
+  border: 2px solid #111;
+  transform: scale(1.1);
+}
+
+.desc {
+  color: white;
+  margin-left: 10px;
+  width: 100%;
+  padding-top: 2rem;
+  font-size: calc(9px + (26 - 12) * ((80vw - 300px) / (1600 - 300)));
+  max-width: 800px;
+  height: 80px;
+  /* margin-top: 10px; */
+}
+.bannerBottom {
+  background-image: linear-gradient(to bottom, transparent, #111);
+  height: 95.7px;
+}
+
+@media only screen and (max-width: 750px) {
+  .desc {
+    max-width: 360px;
+  }
+}
