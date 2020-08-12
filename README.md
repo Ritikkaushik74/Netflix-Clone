@@ -1,2 +1,2 @@
-# Project
+# Netflix-Clone
 Created with CodeSandbox
